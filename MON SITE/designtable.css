@@ -1,0 +1,36 @@
+table{
+    border-collapse: collapse; /* Les bordures du tableau seront collées*/
+    text-align: center; /*centre les tableaux*/
+    margin: auto;
+    text-align: center;
+    width: 250px;
+    height: 150px;
+    padding: 30px;
+}
+td,th{
+    border: 3px solid maroon; /* Mettre une bordure de 2px de couleur bronzé (brun) sur les td et les th*/
+    
+} 
+caption{
+    caption-side: right;
+}
+body{
+    background-color: rgb(241, 212, 159);
+    border-style: dotted;
+}
+h1,h2{
+    text-align: center;
+    color: rgb(87, 5, 87);
+}
+#a{
+    background-color: slateblue;
+}
+#c{
+    background-color: yellow;
+}
+#e{
+    background-color: aqua;
+}
+#g{
+    background-color: greenyellow;
+}

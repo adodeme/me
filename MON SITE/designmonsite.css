@@ -1,0 +1,6 @@
+@media (max-width: 768px){
+    boby{
+        font-size: 14px;
+        flex-direction: column;
+    }
+}

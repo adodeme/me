@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire2</title>
+    <link rel="stylesheet" href="designform2.css">
+</head>
+<body>
+   
+    <div class="contenu">
+        <form method="post" action="traitement.php">
+            <h1>Enregistrement des étudiants</h1>
+            <!--titre-->
+            <div class="fieldest">
+                <!--état civil-->
+                <legend>Etat Civil</legend><br><br>
+                <div class="form-row">
+                    <label for="nom" class="c">NOM: </label>
+                    <input type="text" id="nom" name="nom" required tabindex="10">
+                    <label for="prénom" class="c">PRENOM: </label>
+                    <input type="text" id="prénom" name="prénom" required tabindex="20">
+                </div>
+                <div class="form-row">
+                    <label for="dat" class="c">Date de Naissance: </label>
+                    <input type="date" id="dat" name="dat" required tabindex="30">
+                    <label for="e-mail" class="c">e-mail: </label>
+                    <input type="email" id="e-mail" name="e-mail" required tabindex="40">
+                </div>
+                <div class="form-row">
+                    <label for="sexe" class="c">Sexe: </label>
+                    <select id="sexe" name="sexe" required >
+                        <option value="masculin">MASCULIN</option>
+                        <option value="féminin">FEMININ</option>
+                    </select>
+                    <label for="contact" class="c">Contact: </label>
+                    <input type="text" id="contact" name="contact" required tabindex="50">
+                </div>
+            </div>
+
+            <!--diplômes-->
+            <div class="fieldest">
+                <legend>Diplômes</legend><br><br>
+                <div class="form-row" >
+                    <label><input type="checkbox" name="diplome" value="CEP">CEP</label>
+                    <label><input type="checkbox" name="diplome" value="BEPC">BEPC</label>
+                    <label><input type="checkbox" name="diplome" value="BAC">BAC</label>
+                    <label><input type="checkbox" name="diplome" value="BTS">BTS</label>
+                    <label><input type="checkbox" name="diplome" value="Licence">Licence</label>
+                    <label><input type="checkbox" name="diplome" value="Master">Master</label>
+                    <label><input type="checkbox" name="diplome" value="Doctorat">Doctorat</label>
+                </div>
+            </div>
+
+            <!--adresse-->
+            <div class="fieldest">
+                <legend>Adresse</legend><br><br>
+                <textarea name="adresse" rows="4" cols="50" required ></textarea>
+            </div>
+
+            <div class="fieldest">
+                <legend>Pays</legend><br><br>
+                <label><input type="radio" name="pays" value="Bénin">Bénin</label>
+                <label><input type="radio" name="pays" value="Sénégal">Sénégal</label>
+                <label><input type="radio" name="pays" value="Togo">Togo</label>
+                <label><input type="radio" name="pays" value="Gabon">Gabon</label>
+                <label><input type="radio" name="pays" value="France">France</label>
+                <label><input type="radio" name="pays" value="Belgique">Belgique</label>
+                <label><input type="radio" name="pays" value="Rwanda">Rwanda</label>
+            </div>
+
+            <!--boutons-->
+            <div class="fieldest">
+                <button type="submit">Envoyer</button>
+                <button type="reset">Effacer</button>
+                <button type="button" onclick="window.close();">Quitter</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+#entete{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+#entete h1{
+    text-align: center;
+    flex: 1;
+    margin: 0;
+    text-decoration: double;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 250%;
+    font-weight: 600;
+    color: rgb(125, 125, 3);
+}
+#entete #uac{
+    height: auto;
+    width: 100px;
+}
+#entete #eneam{
+    height: auto;
+    width: 100px;
+}   
+.fl{
+    background-color: rgb(220, 220, 51);
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color: black;
+} 
+body{
+    background-color: beige;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-style: double;
+}
+span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80%;
+    font-weight: bolder;
+    text-decoration: none;
+    font-style: italic;
+
+}
+.me{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+#imflo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+em{
+    text-decoration: underline;
+}
+.para{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 530;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    color: rgb(86, 4, 4);
+    line-height: 30px;
+    text-indent: 5em;
+}
+#imfl{
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+}

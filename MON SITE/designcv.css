@@ -1,0 +1,88 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+    background: #f4f4f4;
+}
+.cv1{
+    display: flex;
+    max-width: 1100px;
+    margin: 20px auto;
+    background: beige;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.cv_left{
+    background: rgb(245, 245, 130);
+    padding: 120px;
+    width: 30%;
+    box-sizing: unset;
+    text-align: left;
+}
+.cv_profil{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.cv_left section{
+    margin-bottom: 20px;
+}
+.cv_left h2{
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+.cv_left ul{
+    list-style: square;
+    padding: 0;
+    text-align: left;
+}
+.cv_left ul li{
+    margin-bottom: 5px;
+}
+.cv_left main {
+    padding: 30px;
+    width: 70%;
+    box-sizing: border-box;
+}
+header h1{
+    margin: 0;
+    font-size: 28px;
+    color: #2c3e50;
+}
+header h2{
+    margin-top: 5px;
+    font-size: 18px;
+    color: #05292c;
+}
+section {
+    margin-top: 30px;   
+}
+section h2{
+    font-size: 22px;
+    color: red;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    margin-bottom: 18px;
+}
+section h3{
+    margin: 0;
+    font-size: 18px;
+    color: rgb(143, 8, 8);
+}
+section p{
+    margin: 5px 0 10px;
+    color: rgb(33, 2, 2);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+
+}
+ul li{
+    color: #1a0101;
+}
+main{
+    margin-left: 30px;
+}
+

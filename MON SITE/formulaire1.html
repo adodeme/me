@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire1</title>
+    <link rel="stylesheet" href="designform1.css">
+</head>
+<body>
+    <h1>FORMULAIRE 1</h1>
+    </form>
+    <form method="post" action="traitement.php"> 
+ 
+        <fieldset> 
+            <legend>Vos coordonnées</legend> <!--Titre du fieldest-->
+         
+            <label for="nom">Quel est votre nom ?</label><br /> 
+            <input type="text" name="nom" id="nom" tabindex="10" /><br /> 
+         
+            <label for="prenom">Quel est votre prénom ?</label><br /> 
+            <input type="text" name="prenom" id="prenom" tabindex="20" /><br /> 
+         
+            <label for="email">Quel est votre e-mail ?</label><br /> 
+            <input type="text" name="email" id="email" tabindex="30" /><br /> 
+        
+        
+        <label for="pays">Quel est votre nationalité ?</label><br /> 
+        <select name="pays" id="pays"> 
+            <optgroup label="Europe"> 
+                <option value="france">France</option> 
+                <option value="espagne">Espagne</option> 
+                <option value="italie">Italie</option> 
+                <option value="royaume-uni">Royaume-Uni</option> 
+            </optgroup> 
+            <optgroup label="Amérique"> 
+                <option value="canada">Canada</option> 
+                <option value="etats-unis">Etats-Unis</option> 
+            </optgroup> 
+                <optgroup label="Asie"> 
+                <option value="chine">Chine</option> 
+                <option value="japon">Japon</option> 
+            </optgroup>
+            <optgroup label="Afrique"> 
+                <option value="Afrique du Sud">Afrique du Sud</option> 
+                <option value="Algérie">Algérie</option> 
+                <option value="Angola">Angola</option> 
+                <option value="Bénin">Bénin</option> 
+                <option value="Botswanna">Botswanna</option> 
+                <option value="Burkina-Faso">Burkina-Faso</option> 
+                <option value="Burundi">Burundi</option> 
+                <option value="Cap-vert">Cap-vert</option>
+                <option value="Cameroun">Cameroun</option>   
+                <option value="Comores">Comores</option> 
+                <option value="Congo">Congo</option>
+                <option value="Cote d'Ivoire">Cote d'Ivoire</option> 
+                <option value="Djibouti">Djibouti</option> 
+                <option value="Egypte">Egypte</option> 
+                <option value="Erythée">Erythée</option> 
+                <option value="Ethiopie">Ethiopie</option> 
+                <option value="Gabon">Gabon</option> 
+                <option value="Gambie">Gambie</option> 
+                <option value="Ghana">Ghana</option> 
+                <option value="Guinée">Guinée</option> 
+                <option value="Kenya">Kenya</option> 
+                <option value="Lesotho">Lesotho</option> 
+                <option value="Libéria">Libéria</option>
+                <option value="Libye">Libye</option> 
+                <option value="Madagascar">Madagascar</option> 
+                <option value="Malawi">Malawi</option>  
+                <option value="Mali">Mali</option> 
+                <option value="Maroc">Maroc</option> 
+                <option value="Mauritanie">Mauritanie</option>
+                <option value="Mozambique">Mozambique</option> 
+                <option value="Namibie">Namibie</option> 
+                <option value="Niger">Niger</option> 
+                <option value="Nigeria">Nigeria</option>
+                <option value="Ouganda">Ouganda</option> 
+                <option value="Rwanda">Rwanda</option> 
+                <option value="Sénégal">Sénégal</option> 
+                <option value="Seychelle">Seychelle</option> 
+                <option value="Sierra Leonne">Sierra Leonne</option> 
+                <option value="Somalie">Somalie</option> 
+                <option value="Soudan">Soudan</option> 
+                <option value="Tanzanie">Tanzanie</option>
+                <option value="Tchad">Tchad</option> 
+                <option value="Togo">Togo</option>
+                <option value="Tunisie">Tunisie</option> 
+                <option value="Zambie">Zambie</option>
+                <option value="Zimbabwe">Zimbabwe</option> 
+            </optgroup>  
+        </select>
+        
+        </fieldset>
+         
+        <fieldset> 
+            <legend>Votre souhait</legend> <!--Titre du fieldest-->
+         
+            <p> 
+                Faites un souhait que vouras voudriez voir exaucé :<br /> 
+                <input type="radio" name="souhait" value="riche" id="riche" tabindex="40" /> <label for="riche">Etre 
+                riche</label><br /> 
+                <input type="radio" name="souhait" value="celebre" id="celebre" tabindex="50" /> <label for="celebre">Etre 
+                célèbre</label><br /> 
+                <input type="radio" name="souhait" value="intelligent" id="intelligent" tabindex="60" /> <label 
+                for="intelligent">Etre <strong>encore</strong> plus intelligent</label><br /> 
+                <input type="radio" name="souhait" value="autre" id="autre" tabindex="70" /> <label 
+                for="autre">Autre...</label><br /> 
+            </p>
+                <label for="precisions">Pour "Autre", veuillez préciser :</label><br />
+                <textarea name="precisions" id="precisions" cols="40" rows="4" tabindex="80"></textarea> 
+            <p> 
+                <input type="submit" /> <input type="reset" /> 
+                </p>
+        </fieldset>
+    </form>
+    <h1>Quelques éléments nécessaire pour créer un formulaire</h1>
+    <h2>Eléments d'options</h2>
+    <h3>Une liste déroulante</h3>
+    <form method="post" action="traitement.php"> 
+        <p> 
+            <label for="pays">Dans quel pays habitez-vous ?</label><br /> 
+            <select name="pays" id="pays"> 
+                <optgroup label="Europe"> 
+                    <option value="france">France</option> 
+                    <option value="espagne">Espagne</option> 
+                    <option value="italie">Italie</option> 
+                    <option value="royaume-uni">Royaume-Uni</option> 
+                </optgroup> 
+                <optgroup label="Amérique"> 
+                    <option value="canada">Canada</option> 
+                    <option value="etats-unis">Etats-Unis</option> 
+                </optgroup> 
+                    <optgroup label="Asie"> 
+                    <option value="chine">Chine</option> 
+                    <option value="japon">Japon</option> 
+                </optgroup> 
+            </select> 
+        </p> 
+    </form>
+    <h3>Des zones d'options (boutons radios)</h3>
+    <form method="post" action="traitement.php"> 
+        <p> 
+            Veuillez indiquer la tranche d'âge dans laquelle vous vous situez :<br /> 
+            <input type="radio" name="age" value="moins15" id="moins15" /> <label for="moins15">Moins de 15 ans</label><br /> 
+            <input type="radio" name="age" value="medium15-25" id="medium15-25" /> <label for="medium15-25">15-25 
+            ans</label><br /> 
+            <input type="radio" name="age" value="medium25-40" id="medium25-40" /> <label for="medium25-40">25-40 
+            ans</label><br    /> 
+            <input type="radio" name="age" value="plus40" id="plus40" /> <label for="plus40">Encore plus vieux que ça ?!</label> 
+        </p> 
+        <p> 
+            Sur quel continent habitez-vous ?<br /> 
+            <input type="radio" name="continent" value="europe" id="europe" /> <label 
+            for="europe">Europe</label><br /> 
+            <input type="radio" name="continent" value="afrique" id="afrique" /> <label    for="afrique">Afrique</label><br /> 
+            <input type="radio" name="continent" value="asie" id="asie" /> <label for="asie">Asie</label><br /> 
+            <input type="radio" name="continent" value="amerique" id="amerique" /> <label for="amerique">Amérique</label><br 
+            /> 
+            <input type="radio" name="continent"    value="australie"    id="australie" />    <label for="australie">Australie</label> 
+        </p> 
+    </form>
+    <h3>Cases à cocher</h3>
+    <form method="post" action="traitement.php"> 
+        <p> 
+            Cochez les aliments que vous aimez manger :<br /> 
+            <input type="checkbox" name="frites" id="frites" /> <label for="frites">Frites</label><br /> 
+            <input type="checkbox" name="steak" id="steak" /> <label for="steak">Steak haché</label><br /> 
+            <input type="checkbox" name="epinards" id="epinards" checked="checked" /> <label 
+            for="epinards">Epinards</label><br /> 
+            <input type="checkbox" name="huitres" id="huitres" /> <label for="huitres">Huitres</label> 
+        </p> 
+    </form>
+    <h2>Zone de saisie</h2>
+    <h3>Zone de texte à une ligne</h3>
+    <input type="text" name="pseudo" />
+    <h3>Zone de texte multiligne</h3>
+    <form method="post" action="traitement.php"> 
+        <p> 
+            <label for="ameliorer">Comment pensez-vous que je pourrais améliorer mon site ?</label><br><br> 
+            <textarea name="ameliorer" id="ameliorer" rows="10" cols="50"></textarea> 
+        </p> 
+    </form> 
+    <h3>Mot de passe</h3>
+    <form method="post" action="traitement.php"> 
+        <p> 
+            <h4>Etiquettes</h4>
+            <label for="pseudo">Votre pseudo :</label> 
+            <input type="text" name="pseudo" id="pseudo" value="@ffs" size="30" maxlength="10"/> <br /><br> 
+            <label for="pass">Votre mot de passe :</label> 
+            <input type="password" name="pass" id="pass" />
+        </p>
+    </form>
+</body> 

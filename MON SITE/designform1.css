@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(242, 242, 167);
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+    color: blue;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+fieldset{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+}

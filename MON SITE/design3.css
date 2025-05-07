@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(89, 89, 89);
+    color: white;
+    border: ;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    color: rgb(242, 242, 23);
+    font-size: 500%;
+    font-weight: bolder;
+}
+h2{
+    text-align: center;
+    font-size: 300%;
+    font-weight: bold;
+    color: rgb(255, 98, 0);
+    font-style: italic;
+}
+p{
+    line-height: 1.5em;
+    letter-spacing: 0.2em;
+    word-spacing: 2px;
+    text-align: justify;
+    font-size: 120%;
+    text-indent: 4em;
+}

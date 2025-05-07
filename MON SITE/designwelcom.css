@@ -1,0 +1,28 @@
+#entete{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+#entete h1{
+    text-align: center;
+    flex: 1;
+    margin: 0;
+    text-decoration: double;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 60px;
+    font-weight: 600;
+    color: rgb(111, 74, 4);
+}
+#entete #uac{
+    height: auto;
+    width: 100px;
+}
+#entete #eneam{
+    height: auto;
+    width: 100px;
+}
+body{
+    background-color: beige;
+}

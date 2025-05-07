@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tableaux</title>
+    <link rel="stylesheet" href="designtable.css">
+</head>
+<body>
+    
+    <h1>DES MODELES DE TABLEAUX</h1>
+
+    
+        <h2>TABLEAU 1</h2>
+        <table>
+            <tr>
+                <td colspan="2">A</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+        </table>
+        <h2>TABLEAU 2</h2>
+        <table>
+            <tr>
+                <td>C</td>
+                <td>D</td>
+                <td>E</td>
+            </tr>
+        </table>
+        <h2>TABLEAU 3</h2>
+        <table>
+            <tr>
+                <td id="a">A</td>
+                <td>B</td>
+                <td id="c">C</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td id="e">E</td>
+                <td>F</td>
+            </tr>
+                <td colspan="3" id="g">G</td>
+        </table>
+        <h2>TABLEAU 4</h2>
+        <table>
+            <tr>
+                <td>IG1 A</td>
+                <td>IG2 A</td>
+                <td>IG1 C</td>
+                <td rowspan="3">IG3 B</td>
+            </tr>
+            <tr>
+                <td colspan="3">IG1 B</td>
+            </tr>
+            <tr>
+                <td colspan="2">IG2 B</td>
+                <td>IG3 A</td>
+            </tr>
+        </table><br><br>
+        <h2>AUTRES</h2>
+        <table>
+        
+        <caption>PASSAGER DU VOL 495</caption><br>
+        <tr>
+            <th>NOM</th>
+            <th>AGE</th>
+            <th>PAYS</th>
+        </tr>
+        <tr>
+            <td>CARMEN</td>
+            <td>33 ans</td>
+            <td>Espagne</td>
+        </tr>
+        <tr>
+            <td>ANNE</td>
+            <td>27 ans</td>
+            <td>France</td>
+        </tr>
+        <tr>
+            <td>MICHELLE</td>
+            <td>26 ans</td>
+            <td>Etats Unis</td>
+        </tr>
+        <tr>
+            <td>OGASAKU NYAGATOSOKA</td>
+            <td>17 ans</td>
+            <td>JAPON</td>
+        </tr>   
+    </table>
+    <br><br>
+    
+    <table>
+        <caption>PASSAGER DU VOL 547</caption>
+        <thead><!--En tête du tableau-->
+            <tr>
+                <th>NOM</th>
+                <th>AGE</th>
+                <th>PAYS</th>
+            </tr>
+        </thead>
+
+        <tfoot><!--Pieds du tableau-->
+            <tr>
+                <th>NOM</th>
+                <th>AGE</th>
+                <th>PAYS</th>
+            </tr>
+        </tfoot>
+
+        <tbody><!--Corps du tableau-->
+            <tr>
+                <td>François</td>
+                <td>43 ans</td>
+                <td>France</td>
+            </tr>
+            <tr>
+                <td>Martine</td>
+                <td>34 ans</td>
+                <td>France</td>
+            </tr>
+            <tr>
+                <td>Jonathan</td>
+                <td>13 ans</td>
+                <td>Australie</td>
+            </tr>
+            <tr>
+                <td>Xu</td>
+                <td>19 ans</td>
+                <td>Chine</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <table>
+        <tr>
+            <th>TITRE DU FILM</th>
+            <td>CRIMINAL SQUAD</td>
+            <td>LA CASA DE PAPEL</td>
+            <td>MERLIN</td>
+            <td>LES SISTERS</td>
+        </tr>
+        <tr>
+            <th>-16 ans</th>
+            <td>NON, trop brutal</td>
+            <td>NON, trop violent</td>
+            <td>Oui, acceptable</td>
+            <td rowspan="2">Oui, pour toutes les catégories d'âge</td>
+        </tr>
+        <tr>
+            <th>+16 ans</th>
+            <td>Oui</td>
+            <td>Oui</td>
+            <td>Oui</td>
+        </tr>
+    </table>
+</body>
+</html>
